@@ -1,98 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "homebridge-mqtt-co2",
-        "scope": null,
-        "escapedName": "homebridge-mqtt-co2",
-        "name": "homebridge-mqtt-co2",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/pi/.homebridge_home"
-    ]
-  ],
-  "_from": "homebridge-mqtt-co2@latest",
-  "_id": "homebridge-mqtt-co2@0.1.3",
-  "_inCache": true,
-  "_location": "/homebridge-mqtt-co2",
-  "_nodeVersion": "7.4.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/homebridge-mqtt-co2-0.1.3.tgz_1485166160713_0.02662013564258814"
-  },
-  "_npmUser": {
-    "name": "citronak",
-    "email": "citronak@gmail.com"
-  },
-  "_npmVersion": "4.0.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "homebridge-mqtt-co2",
-    "scope": null,
-    "escapedName": "homebridge-mqtt-co2",
-    "name": "homebridge-mqtt-co2",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/homebridge-mqtt-co2/-/homebridge-mqtt-co2-0.1.3.tgz",
-  "_shasum": "655765a92490be39e04e00cc841d745a7a4b4b9d",
-  "_shrinkwrap": null,
-  "_spec": "homebridge-mqtt-co2",
-  "_where": "/home/pi/.homebridge_home",
-  "author": {
-    "name": "citronak"
-  },
-  "bugs": {
-    "url": "https://github.com/CiTroNaK/homebridge-mqtt-co2/issues"
-  },
-  "dependencies": {
-    "mqtt": "^1.12.0"
-  },
-  "description": "A HomeBridge plugin for MQTT CO2 sensors.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "655765a92490be39e04e00cc841d745a7a4b4b9d",
-    "tarball": "https://registry.npmjs.org/homebridge-mqtt-co2/-/homebridge-mqtt-co2-0.1.3.tgz"
-  },
-  "engines": {
-    "homebridge": ">=0.2.0",
-    "node": ">=0.12.0"
-  },
-  "files": [
-    "index.js",
-    "README.md"
-  ],
-  "gitHead": "c737201bded57133ddb965888441a0b2e3ff6436",
-  "homepage": "https://github.com/CiTroNaK/homebridge-mqtt-co2#readme",
-  "keywords": [
-    "homebridge-plugin",
-    "mqtt",
-    "co2"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "citronak",
-      "email": "citronak@gmail.com"
-    }
-  ],
   "name": "homebridge-mqtt-co2",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "version": "0.0.1",
+  "description": "Homebridge plugin for MQTT mqtt-co2",
+  "note": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">4.0.0",
+    "homebridge": ">=0.2.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CiTroNaK/homebridge-mqtt-co2.git"
+    "url": "https://github.com/vsidlu/homebridge-mqtt-co2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.1.3"
-}
+  "keywords": [
+    "homebridge-plugin",
+    "MQTT",
+    "homekit",
+    "Siri",
+    "IoT",
+    "mqtt-co2"
+  ],
+  "dependencies": {
+    "mqtt": "^1.6.3"
+  }
