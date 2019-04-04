@@ -1,5 +1,7 @@
 # homebridge-mqtt-co2
-Get CO2 data via MQTT in Homebridge
+Get CO2 data via MQTT in Homebridge.
+
+Connect mhz to raspberry pi and read data with co2.py script.
 
 Sample HomeBridge Configuration
 --------------------
