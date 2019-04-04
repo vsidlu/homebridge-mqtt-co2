@@ -81,7 +81,7 @@ function AirQualityAccessory(log, config) {
 
 
   this.client.on('message', function (topic, message) {
-  data = JSON.parse(message);
+  var data = JSON.parse(message);
   if (data === null) {return null}
   if (topic === that.topic_co2_level)
   {
